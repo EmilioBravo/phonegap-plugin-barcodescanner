@@ -154,6 +154,7 @@ final class CameraConfigurationManager {
     }
 
     parameters.setPreviewSize(cameraResolution.x, cameraResolution.y);
+    camera.setColorEffect(EFFECT_NEGATIVE);
     camera.setParameters(parameters);
   }
 
